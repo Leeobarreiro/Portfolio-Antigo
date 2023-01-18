@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="css/style.css" />
+    <script
+      src="../../kit.fontawesome.com/ef2c46f17f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Leonardo Barreiro Portifolio</title>
+ 
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menu_mobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == "flex") {
+                    document.querySelector(".menu nav ul").style.display = "none";
+                } else {
+                    document.querySelector(".menu nav ul").style.display = "flex";
+                }
+            });
+        };
+    </script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="logo">
+          <img src="images/Menino.jpg" alt="">
+        </div>
+        <div class="menu">
+          <nav>
+            <div class="menu_mobile">
+              <div class="mm_line"></div>
+              <div class="mm_line"></div>
+              <div class="mm_line"></div>
+            </div>
+            <ul>
+              <li><a href="#header">Home</a></li>
+              <li><a href="#sobre-mim">Sobre</a></li>
+              <li><a href="#conhecimentos">Conhecimentos</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li>
+                <a href="#contato" class="menu-buttom"
+                  >Contato</a
+                >
+              </li>
+              <li>
+                <a href="https://github.com/Leeobarreiro" target="_blank"
+                  ><i class="fa fa-github" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/leonardo-barreiro-b953bb150/"
+                  target="_blank"
+                  ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+        <section id="banner">
+            <div class="container">
+                <div class="banner">
+                    <div class="banner-esquerda">
+                        <p>Fala Galera!!! <span> </span> Bem vindo ao meu Portfolio</p>
+                        <h1>Leonardo Gomes Barreiro</h1>
+                        <h2>Desenvolvedor</h2>
+                        <p>Programador web com foco no mundo <br>
+                            Front-End!</p> </br>
+                        <a href="#sobre-mim" class="buttom">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="icone-rolagem">
+                <img class="icone-img" src="images/mouse.png" alt="">
+            </div>
+        </section>
+        <section id="sobre-mim">
+            <div class="container">
+                <div class="sobre-mim">
+                    <div class="sobre-mim-esquerda">
+                        <img id="foto" src="images/foto.png">
+                    </div>
+                    <div class="sobre-mim-direita">
+                        <div class="titulo">
+                            <p>Quem sou eu</p>
+                            <h1>Sobre mim</h1>
+                        </div>
+                        <p>Formado em Análise e desenvolvimento de sistemas. Foco em desenvolvimento web  Front end com HTML, CSS, JavaScript, React e Typescript. <br></p>
+                        <a download  href="curriculo/Profile.pdf" target="_blank" class="buttom">Download CV</a></li>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="conhecimentos">
+            <div class="container">
+                <div class="conhecimentos">
+                    <div class="titulo">
+                        <p>O que estou estudando</p>
+                        <h1>Conhecimentos</h1>
+                    </div>
+                    <div class="conhecimentos-cards">
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="images/html_icon.png">
+                            <h2>HTML</h2>
+                            <p>O HTML é a principal linguagem de programação encontrada na internet. Cada página HTML tem uma série de elementos que cria a estrutura dos conteúdos de uma página ou de um aplicativo</p>
+                            </div>            
+                        </div>
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="images/css_icon.png">
+                            <h2>CSS</h2>
+                            <p>O CSS é uma linguagem de folhas de estilos que é utilizada para definir como os documentos escritos na linguagem de marcação HTML.</p>
+                            </div>   
+                        </div>
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="images/js_icon.png">
+                            <h2>Javascript</h2>
+                            <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
+                            </div>   
+                        </div>
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="images/typescript_icon.png">
+                            <h2>Typescript</h2>
+                            <p>TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.</p>
+                            </div>   
+                        </div>  
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="images/react_icon.png">
+                            <h2>React.js</h2>
+                            <p>O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. É mantido pelo Facebook.</p>
+                            </div>   
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="projetos">
+            <div class="container">
+                <div class="projetos">
+                    <div class="titulo">
+                        <p>Meus projetos</p>
+                        <h1>Projetos</h1>
+                    </div> 
+                    <div class="projetos-card">
+                            <img src="images/awax1.png" alt="">
+                            <div class="projeto-card-desc">
+                                <div class="projeto-card-desc-esquerda">
+                                    <h2>Awax</h2>
+                                    <div class="projeto-card-desc-categorias">
+                                        <div class="projeto-card-desc-categoria html">HTML</div>
+                                        <div class="projeto-card-desc-categoria css">CSS</div>
+                                    </div>
+                                </div>
+                                <div class="projeto-card-desc-direita">
+                                    <p>Landing page voltada para agências de comunicação visual, marketing e fotografia.</p>
+                                    <div class="projeto-card-desc-direita-icons">
+                                        <a href="https://github.com/EduardaCoffacci/Awax" target="_blank"><i class="fab fa-github"></i></a>
+                                        <a href="https://eduardacoffacci.github.io/Awax/" target="_blank"><i class="fas fa-link"></i></a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div> 
+                        <div class="projetos-card">
+                            <img src="images/starbacks.png" alt="">
+                            <div class="projeto-card-desc">
+                                <div class="projeto-card-desc-esquerda">
+                                    <h2>Starbacks</h2>
+                                    <div class="projeto-card-desc-categorias">
+                                        <div class="projeto-card-desc-categoria html">HTML</div>
+                                        <div class="projeto-card-desc-categoria css">CSS</div>
+                                    </div>
+                                </div>
+                                <div class="projeto-card-desc-direita">
+                                    <p>Landing page voltada para empresa com maior cadeia de cafeterias do mundo.</p>
+                                    <div class="projeto-card-desc-direita-icons">
+                                        <a href="https://github.com/eduardacoffacci/Starbucks" target="_blank"><i class="fab fa-github"></i></a>
+                                        <a href="https://eduardacoffacci.github.io/Starbucks/" target="_blank"><i class="fas fa-link"></i></a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+        </section> 
+        <section id="contato" class="container">
+            <h2>Contato</h2>
+            <form action="https://formsubmit.co/" method="post">
+                <label>Nome</label>
+                <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                <label>Email</label>
+                <input type="email" name="name" placeholder="Digite seu email" autocomplete="off" required>
+                <label>Mensagem</label>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+
+                <input type="hidden" name="accessKey" value="7fab3f47-e059-4c31-a1c7-11fce1930769">
+                <input type="hidden"  name="redirectTo" value="https://eduardacoffacci.github.io/meu-portifolio/obrigado.html">
+            </form>
+        </section>
+    </main>
+    <footer id="footer">
+            <div class="texto">
+                <h1 class="titulo">Leonardo Barreiro</h1>
+                <p>©2023 por Leonardo Barreiro</p>
+            </div>
+            <div class="whatsap">
+                <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5551993833933" target="_blank" >
+                     <img id="whatsapp" src="images/whatsapp.png" alt="">  
+                </a>        
+            </div>    
+    </footer> 
+        
+  </body>
+
+
+</html>
