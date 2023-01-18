@@ -36,7 +36,7 @@ header {
 
 .menu-buttom {
   align-items: center;
-  background: var(--primary);
+  background: red;
   padding: 10px 30px;
   border-radius: 10px;
   transition: transform 0.2s ease-in-out 0s;
